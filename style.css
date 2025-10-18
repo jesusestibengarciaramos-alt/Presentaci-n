@@ -1,21 +1,25 @@
 :root {
   --bg: #ffffff;
-  --text: #1f2937;
+  --text: #ffffff;
   --accent: #0ea5a4;
-  --card: #f9fafb;
+  --card: #c0c0c0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0b1120;
-    --text: #e5e7eb;
+    --text: #ffffff;
     --accent: #2dd4bf;
-    --card: #1e293b;
+    --card: #ffffff;
   }
 }
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --bg: #000000; /* fondo oscuro */
 }
 
 body {
@@ -93,7 +97,7 @@ main {
   margin-bottom: 10px;
 }
 .hero .lead {
-  color: #6b7280;
+  color: #ffffff;
   max-width: 700px;
   margin: 0 auto 20px;
 }
@@ -113,7 +117,7 @@ main {
 .btn.primary {
   background: var(--accent);
   color: #e7e7e7;
-  background-color: #a01919;
+  background-color: #0BA6DF;
 }
 .btn.secondary {
   background: var(--card);
@@ -141,12 +145,12 @@ main {
   background: var(--card);
   border-radius: 12px;
   padding: 18px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px #00000014;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 20px #0000001f;
 }
 
 .tools a {
@@ -162,13 +166,13 @@ main {
 }
 .tools a:hover {
   background: var(--accent);
-  color: #fff;
+  color: #ffffff;
 }
 
 footer {
   text-align: center;
   padding: 30px;
-  color: #6b7280;
+  color: #ffffff;
   font-size: 14px;
 }
 
@@ -199,7 +203,7 @@ footer {
   border: 0;
 }
 a {
-  color: #a01919;
+  color: #ffffff;
 }
 
 a:hover {
